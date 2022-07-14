@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+a {
+  display: block;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+::selection {
+  background-color: hsl(10deg, 79%, 65%);
+  color: #fff;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  display: block;
+  color: inherit;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: hsl(10deg, 79%, 65%);
+  border-radius: 10px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow: hidden;
+  background-color: hsl(27deg, 66%, 92%);
+}
+
+.balance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.balance__container {
+  width: 30%;
+}
+.balance__head {
+  background-color: hsl(10deg, 79%, 65%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1.3rem 2rem;
+  border-radius: 1rem;
+}
+.balance__p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.balance__img {
+  width: 4rem;
+}
+.balance__body {
+  background-color: hsl(33deg, 100%, 98%);
+  padding: 1.3rem 2rem;
+  border-radius: 1rem;
+  margin-top: 1.3rem;
+}
+.balance__h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(25deg, 47%, 15%);
+}
+.balance__hr {
+  background-color: hsl(27deg, 66%, 92%);
+  height: 0.02rem;
+  margin: 1rem 0;
+}
+.balance__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.balance__porcentage {
+  margin-top: 1rem;
+}
+
+.balance__p--number {
+  margin-top: 0.7rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.balance__p--gray {
+  color: hsl(28deg, 10%, 53%);
+}
+.balance__p--total {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 0.2rem;
+}
+.balance__p--porcentage {
+  color: hsl(25deg, 47%, 15%);
+  font-weight: 700;
+  margin-left: 3.6rem;
+}
+
+/*# sourceMappingURL=style.css.map */

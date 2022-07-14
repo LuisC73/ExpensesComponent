@@ -1,0 +1,27 @@
+@use '../_layout/vars' as vars;
+@use '../_layout/mixins' as mixin;
+
+.balance{
+    &__p--number{
+        margin-top: .7rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    &__p--gray{
+        color: vars.$brown-medium;
+    }
+
+    &__p--total{
+        color: vars.$brown;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-top: .2rem;
+    }
+
+    &__p--porcentage{
+        color: vars.$brown;
+        font-weight: 700;
+        margin-left: 3.6rem;
+    }
+}

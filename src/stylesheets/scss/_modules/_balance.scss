@@ -1,0 +1,56 @@
+@use '../_layout/vars' as vars;
+@use '../_layout/mixins' as mixin;
+
+.balance{
+    @include mixin.flex(center,center,column);
+    height: 100vh;
+    width: 100vw;
+    
+
+    &__container{
+        width: 30%;
+    }
+
+    &__head{
+        background-color: vars.$red;
+        @include mixin.flex(space-between,center,row);
+        padding: 1.3rem 2rem;
+        border-radius: 1rem;
+    }
+
+    &__p{
+        color: #fff;
+        font-size: .8rem;
+    }
+
+    &__img{
+        width: 4rem;
+    }
+
+    &__body{
+        background-color: vars.$orange;
+        padding: 1.3rem 2rem;
+        border-radius: 1rem;
+        margin-top: 1.3rem;
+    }
+
+    &__h3{
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: vars.$brown;
+    }
+
+    &__hr{
+        background-color: vars.$cream;
+        height: .02rem;
+        margin: 1rem 0;
+    }
+
+    &__footer{
+        @include mixin.flex(space-between,center,row);
+    }
+
+    &__porcentage{
+        margin-top: 1rem;
+    }
+}

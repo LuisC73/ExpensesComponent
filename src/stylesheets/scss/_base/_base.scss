@@ -1,0 +1,8 @@
+@use '../_layout/vars'as vars;
+
+
+body{
+    font-family: vars.$font;
+    overflow: hidden;
+    background-color: vars.$cream;
+}
