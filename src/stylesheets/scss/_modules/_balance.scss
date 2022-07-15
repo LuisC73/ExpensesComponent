@@ -82,3 +82,15 @@
         border-radius: .3rem;
     }
 }
+
+@media (max-width:768px){
+    .balance{
+        &__container{
+            width: 90%;
+        }
+        &__wrapper{
+            width: 1.8rem;
+        }
+    
+    }
+}
