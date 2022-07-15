@@ -1,10 +1,8 @@
-const data = fetch('data.json')
+const data = fetch('./data.json')
     .then(response => response.json())
     .then (data => {return data})
 
 const containerChart = document.querySelector('.balance__spending');
-
-console.log("object");
 
 data.then((data) =>{
     data.forEach(item => {
