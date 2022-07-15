@@ -171,7 +171,7 @@ body {
   gap: 1em;
 }
 .balance__wrapper {
-  width: 2em;
+  width: 2.2em;
   display: flex;
   align-items: flex-end;
   height: 90%;
@@ -205,6 +205,9 @@ body {
   color: hsl(25deg, 47%, 15%);
   font-weight: 700;
   margin-left: 3.6rem;
+}
+.balance__value--cyan {
+  background-color: hsl(186deg, 34%, 60%);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,12 +8,16 @@ console.log("object");
 
 data.then((data) =>{
     data.forEach(item => {
-        let chart = document.createElement('div');
-        const height = item.amount/6;
+        let chart = document.createElement('div'),
+        divValue= '';
+        const itemHeight = item.amount/6;
         chart.classList.add('balance__chart');
+        (item.day === 'wed')
+            ? divValue = `<div class="balance__value balance__value--cyan" style="--height: ${itemHeight}em"></div>`
+            : divValue = `<div class="balance__value" style="--height: ${itemHeight}em"></div>`
         chart.innerHTML = `
         <div class="balance__wrapper">
-        <div class="balance__value" style="--height: ${height}em"></div>
+            ${divValue}
         </div>
         <p class="balance__p balance__p--title">${item.day}</p>
         `;
