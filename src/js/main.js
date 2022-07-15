@@ -1,4 +1,4 @@
-const data = fetch('../../data.json')
+const data = fetch('data.json')
     .then(response => response.json())
     .then (data => {return data})
 
