@@ -156,6 +156,32 @@ body {
 .balance__porcentage {
   margin-top: 1rem;
 }
+.balance__spending {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 1.5rem;
+}
+.balance__chart {
+  display: flex;
+  flex-direction: column;
+  height: 12em;
+  justify-content: center;
+  gap: 1em;
+}
+.balance__wrapper {
+  width: 2em;
+  display: flex;
+  align-items: flex-end;
+  height: 90%;
+}
+.balance__value {
+  height: var(--height);
+  background-color: hsl(10deg, 79%, 65%);
+  width: 100%;
+  border-radius: 0.3rem;
+}
 
 .balance__p--number {
   margin-top: 0.7rem;
@@ -164,6 +190,10 @@ body {
 }
 .balance__p--gray {
   color: hsl(28deg, 10%, 53%);
+}
+.balance__p--title {
+  color: hsl(28deg, 10%, 53%);
+  text-align: center;
 }
 .balance__p--total {
   color: hsl(25deg, 47%, 15%);

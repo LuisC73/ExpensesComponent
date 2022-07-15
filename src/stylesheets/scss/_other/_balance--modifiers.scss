@@ -12,6 +12,11 @@
         color: vars.$brown-medium;
     }
 
+    &__p--title{
+        color: vars.$brown-medium;
+        text-align: center;
+    }
+
     &__p--total{
         color: vars.$brown;
         font-weight: 700;
