@@ -1,5 +1,5 @@
 
-<h1 align="center">Frontend Mentor - Expenses chart component</h1>
+<h1 align="center">👋 Frontend Mentor - Expenses chart component 🚀</h1>
 
 
 <div align="center">
